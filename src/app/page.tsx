@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import pic from "../images/profile-photo.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,9 +9,9 @@ export default function Home() {
       {/* Navigation Bar */}
       <nav className="bg-gray-800 p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <a href="#" className="text-3xl font-bold">
+          <Link href="/" className="text-3xl font-bold">
             Portfolio.
-          </a>
+          </Link>
           <div className="space-x-4">
             <a href="https://github.com/Glennpgp" className="nav-link">
               GitHub
@@ -18,9 +19,9 @@ export default function Home() {
             <a href="/cv" className="nav-link">
               CV
             </a>
-            <a href="/contact" className="nav-link">
-              Contact
-            </a>
+            <Link href="/contact">
+              <a className="nav-link">Contact</a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -49,8 +50,8 @@ export default function Home() {
             <br></br>
             <p className="text-xl text-gray-300">
               I enjoy designing and developing cool and interactive websites.
-              I've created this portfolio website primarily to showcase my work,
-              aiming to provide value to individuals and businesses in the
+              I&lsquo;ve created this portfolio website primarily to showcase my
+              work, aiming to provide value to individuals and businesses in the
               digital space.
             </p>
           </section>
@@ -73,8 +74,8 @@ export default function Home() {
             <h3 className="text-xl font-semibold mt-4">STUDENT SCROLL</h3>
             <p className="text-gray-300 mt-2">
               StudentScroll brings together students from different backgrounds.
-              You can meet like-minded people, keep up with what's going on, and
-              use our responsive web app.
+              You can meet like-minded people, keep up with what&lsquo;s going
+              on, and use our responsive web app.
             </p>
           </div>
 
