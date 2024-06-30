@@ -9,18 +9,29 @@ export default function Home() {
       {/* Navigation Bar */}
       <nav className="bg-gray-800 p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <Link href="/" className="text-3xl font-bold">
+          <Link
+            href="/"
+            className="text-3xl font-bold hover:text-blue-500 transition-colors duration-300"
+          >
             Portfolio.
           </Link>
           <div className="space-x-4">
-            <a href="https://github.com/Glennpgp" className="nav-link">
+            <a
+              href="https://github.com/Glennpgp"
+              className="nav-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
-            <a href="/cv" className="nav-link">
+            <Link href="/cv" className="nav-link">
               CV
-            </a>
-            <Link href="/contact">
-              <a className="nav-link">Contact</a>
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/glenn-neil-15139b180/"
+              className="nav-link"
+            >
+              Contact
             </Link>
           </div>
         </div>
@@ -29,21 +40,15 @@ export default function Home() {
       {/* Main Content */}
       <main className="container mx-auto p-24 flex">
         {/* Profile Photo */}
-        <div className="w-1/3">
-          <Image
-            src={pic}
-            alt="Profile Photo"
-            width={300}
-            height={300}
-            className="rounded-full shadow-xl border  border-orange-400"
-          />
+        <div className="rounded-full shadow-xl border border-orange-400">
+          <Image src={pic} alt="Profile Photo" width={300} height={300} />
         </div>
 
         {/* Welcome Text and Description */}
         <div className="w-2/3 pl-12">
           <section className="text-center">
             <h1 className="text-5xl font-extrabold mb-4">
-              Hi, I am Glenn Neil
+              Kia ora, folks! This is Glenn
             </h1>
             <h2 className="text-green-400">Front-end developer</h2>{" "}
             {/* Add the text-black class */}
@@ -61,7 +66,9 @@ export default function Home() {
       <div></div>
 
       <section className="mt-12">
-        <h2 className="text-3xl font-semibold text-center mb-8">Projects</h2>
+        <h2 className="text-3xl font-semibold text-center mb-8">
+          Projects under my belt.
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 mx-32 lg:grid-cols-3 gap-8">
           {/* Portfolio Item 1 */}
           <div className="bg-gray-800 p-4 rounded-lg">
