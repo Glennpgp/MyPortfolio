@@ -24,14 +24,20 @@ export default function Home() {
             >
               GitHub
             </a>
-            <Link href="/cv" className="nav-link">
-              CV
-            </Link>
+            <a
+              href="/pdfs/Glenn_Neil_CV_software_Engineer.pdf"
+              className="nav-link"
+              target="_blank"
+              download="Glenn_Neil_CV_software_Engineer.pdf"
+            >
+              Download CV
+            </a>
+
             <Link
               href="https://www.linkedin.com/in/glenn-neil-15139b180/"
               className="nav-link"
             >
-              Contact
+              Linkedin
             </Link>
           </div>
         </div>
@@ -40,24 +46,30 @@ export default function Home() {
       {/* Main Content */}
       <main className="container mx-auto p-24 flex">
         {/* Profile Photo */}
-        <div className="rounded-full shadow-xl border border-orange-400">
-          <Image src={pic} alt="Profile Photo" width={300} height={300} />
+        <div className="pro">
+          <Image
+            src={pic}
+            alt="profile-photo.jpg"
+            width={300}
+            height={300}
+            className="rounded-full"
+          />
         </div>
 
         {/* Welcome Text and Description */}
         <div className="w-2/3 pl-12">
           <section className="text-center">
             <h1 className="text-5xl font-extrabold mb-4">
-              Kia ora, folks! This is Glenn
+              Hi-ya! This is Glenn
             </h1>
-            <h2 className="text-green-400">Front-end developer</h2>{" "}
+            <h2 className="text-green-400">Software Developer</h2>{" "}
             {/* Add the text-black class */}
             <br></br>
             <p className="text-xl text-gray-300">
-              I enjoy designing and developing cool and interactive websites.
-              I&lsquo;ve created this portfolio website primarily to showcase my
-              work, aiming to provide value to individuals and businesses in the
-              digital space.
+              A software developer who loves turning ideas or problems into
+              simple, effective solutions. Browse through my projects to see how
+              I use creativity and technical know-how to build applications that
+              make a real difference and add value.
             </p>
           </section>
         </div>
@@ -74,7 +86,7 @@ export default function Home() {
           <div className="bg-gray-800 p-4 rounded-lg">
             <Image
               src="/images/project1.jpg"
-              alt="STUDENT SCROLL"
+              alt="Description of Project 1"
               width={300}
               height={200}
             />
