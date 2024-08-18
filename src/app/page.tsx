@@ -50,8 +50,8 @@ export default function Home() {
             <Image
               src={pic}
               alt="profile-photo.jpg"
-              width={300}
-              height={300}
+              width={600}
+              height={500}
               className="rounded-full w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80"
             />
           </div>
@@ -102,7 +102,7 @@ export default function Home() {
           {/* Portfolio Item 2 */}
           <div className="bg-gray-800 p-4 rounded-lg">
             <Image
-              src="/project2.jpg"
+              src="/images/project2.jpg"
               alt="Project 2"
               width={300}
               height={200}
@@ -117,7 +117,7 @@ export default function Home() {
           {/* Portfolio Item 3 */}
           <div className="bg-gray-800 p-4 rounded-lg">
             <Image
-              src="/project3.jpg"
+              src="/images/project3.jpg"
               alt="Project 3"
               width={300}
               height={200}
