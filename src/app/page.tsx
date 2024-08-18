@@ -83,7 +83,7 @@ export default function Home() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-6xl">
           {/* Portfolio Item 1 */}
-          <div className="bg-gray-800 p-4 rounded-lg">
+          <div className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
             <Image
               src="/images/project1.jpg"
               alt="Description of Project 1"
@@ -100,7 +100,7 @@ export default function Home() {
           </div>
 
           {/* Portfolio Item 2 */}
-          <div className="bg-gray-800 p-4 rounded-lg">
+          <div className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
             <Image
               src="/images/project2.jpg"
               alt="Project 2"
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
 
           {/* Portfolio Item 3 */}
-          <div className="bg-gray-800 p-4 rounded-lg">
+          <div className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
             <Image
               src="/images/project3.jpg"
               alt="Project 3"
