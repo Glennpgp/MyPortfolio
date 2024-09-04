@@ -83,7 +83,26 @@ export default function Home() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-6xl">
           {/* Portfolio Item 1 */}
-          <div className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
+          <a
+            className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300"
+            href="https://iot-test.miguelemmara.me/"
+          >
+            <Image
+              src="/images/iot.jpg"
+              alt="Project 3"
+              width={300}
+              height={200}
+              layout="responsive"
+            />
+            <h3 className="text-xl font-semibold mt-4">IoT Frontend Manager</h3>
+            <p className="text-gray-300 mt-2">
+              An application which allows monitoring of IoT Devices.
+            </p>
+          </a>
+
+          {/* Portfolio Item 2 */}
+
+          <a className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
             <Image
               src="/images/project1.jpg"
               alt="Description of Project 1"
@@ -97,10 +116,10 @@ export default function Home() {
               You can meet like-minded people, keep up with what&apos;s going
               on, and use our responsive web app.
             </p>
-          </div>
+          </a>
+          {/* Portfolio Item 3 */}
 
-          {/* Portfolio Item 2 */}
-          <div className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
+          <a className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
             <Image
               src="/images/project2.jpg"
               alt="Project 2"
@@ -112,22 +131,7 @@ export default function Home() {
             <p className="text-gray-300 mt-2">
               Simple application to calculate mortgage to buy a house
             </p>
-          </div>
-
-          {/* Portfolio Item 3 */}
-          <div className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
-            <Image
-              src="/images/project3.jpg"
-              alt="Project 3"
-              width={300}
-              height={200}
-              layout="responsive"
-            />
-            <h3 className="text-xl font-semibold mt-4">Project 3</h3>
-            <p className="text-gray-300 mt-2">
-              Description of project 3 goes here.
-            </p>
-          </div>
+          </a>
         </div>
       </section>
     </div>
