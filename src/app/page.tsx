@@ -25,7 +25,7 @@ export default function Home() {
               GitHub
             </Link>
             <Link
-              href="/pdfs/Glenn_Neil_CV_software_Engineer.pdf"
+              href="chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/file:///C:/Users/glenn/OneDrive/Documents/Glenn_Neil_CV_software_Engineer.pdf"
               className="nav-link hover:text-blue-500 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,10 +67,10 @@ export default function Home() {
               </h2>
               <br />
               <p className="text-lg md:text-xl text-gray-300">
-                A software developer who loves turning ideas or problems into
-                simple, effective solutions. Browse through my projects to see
-                how I use creativity and technical know-how to build
-                applications that make a real difference and add value.
+                New Zealand based software developer who loves turning ideas or
+                problems into simple, effective solutions. Browse through my
+                projects to see how I use creativity and technical know-how to
+                build applications that make a real difference and add value.
               </p>
             </section>
           </div>
