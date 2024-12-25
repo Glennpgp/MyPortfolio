@@ -25,7 +25,7 @@ export default function Home() {
               GitHub
             </Link>
             <Link
-              href="chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/file:///C:/Users/glenn/OneDrive/Documents/Glenn_Neil_CV_software_Engineer.pdf"
+              href="/CV/Glenn_Neil_CV_software_Engineer.pdf"
               className="nav-link hover:text-blue-500 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,10 +67,11 @@ export default function Home() {
               </h2>
               <br />
               <p className="text-lg md:text-xl text-gray-300">
-                New Zealand based software developer who loves turning ideas or
-                problems into simple, effective solutions. Browse through my
-                projects to see how I use creativity and technical know-how to
-                build applications that make a real difference and add value.
+                Hi there! I am a software developer with a curious mind, eager
+                to explore new and exciting challenges with a problem-solving
+                mindset. In this fast-paced technological world, I am
+                continuously working with new tools to find efficient ways to
+                build robust software.
               </p>
             </section>
           </div>
@@ -119,17 +120,24 @@ export default function Home() {
           </a>
           {/* Portfolio Item 3 */}
 
-          <a className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300">
+          <a
+            className="bg-gray-800 p-4 rounded-lg hover:bg-blue-500 transition-colors duration-300"
+            href="https://nextjs-dashboard-three-mu-90.vercel.app/"
+          >
             <Image
-              src="/images/project2.jpg"
+              src="/images/auxo.jpg"
               alt="Project 2"
               width={300}
               height={200}
               layout="responsive"
             />
-            <h3 className="text-xl font-semibold mt-4">MORTGAGE CALCULATOR</h3>
+            <h3 className="text-xl font-semibold mt-4">
+              Auto Parts Ordering System
+            </h3>
             <p className="text-gray-300 mt-2">
-              Simple application to calculate mortgage to buy a house
+              This is Full Stack Web Application for Auto Parts Ordering System.
+              API Handling to Create a new Part to the existing Database and as
+              well order Parts.
             </p>
           </a>
         </div>
